@@ -1,0 +1,11 @@
+{
+    "dias": [
+        {"data": "2024-08-01", "faturamento": 2000.00},
+        {"data": "2024-08-02", "faturamento": 2500.00},
+        {"data": "2024-08-03", "faturamento": 0.00},
+        {"data": "2024-08-04", "faturamento": 0.00},
+        {"data": "2024-08-05", "faturamento": 3000.00},
+        {"data": "2024-08-06", "faturamento": 2800.00}
+        // Adicione mais dados conforme necessário
+    ]
+}

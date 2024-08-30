@@ -1,0 +1,24 @@
+def is_fibonacci_number(n):
+    """Verifica se o número 'n' pertence à sequência de Fibonacci."""
+    if n < 0:
+        return False
+
+    # Começa a sequência de Fibonacci
+    a, b = 0, 1
+
+    # Enquanto o número atual da sequência for menor que 'n'
+    while a < n:
+        a, b = b, a + b
+    
+    # Verifica se o número 'n' é igual ao número da sequência
+    return a == n
+
+# Entrada do usuário
+try:
+    num = int(input("Digite um número para verificar se pertence à sequência de Fibonacci: "))
+    if is_fibonacci_number(num):
+        print(f"O número {num} pertence à sequência de Fibonacci.")
+    else:
+        print(f"O número {num} não pertence à sequência de Fibonacci.")
+except ValueError:
+    print("Por favor, insira um número válido.")
